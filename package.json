@@ -1,0 +1,19 @@
+{
+  "name": "pi-troller",
+  "version": "0.0.1",
+  "description": "Small Library to control PiBot by xbox controller.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaykayyali/PiTroller.git"
+  },
+  "author": "Kaysser Emad Kayyali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaykayyali/PiTroller/issues"
+  },
+  "homepage": "https://github.com/kaykayyali/PiTroller#readme"
+}
