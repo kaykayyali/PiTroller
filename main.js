@@ -16,4 +16,4 @@ function init() {
 	});
 };
 
-setTimeout(init, 3000);
+setTimeout(init, 1500);
