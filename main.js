@@ -5,9 +5,11 @@ var controller = new Joystick(0, 3500, 350);
 var Interpreter = new Xbox_Interpreter();
 
 controller.on('button', function(event_data) {
+	console.log("button event");
 	Interpreter.handle_button_event(event_data);
 
 });
 controller.on('axis', function(event_data) {
+	console.log("axis event");
 	Interpreter.handle_axis_event(event_data);
 });
